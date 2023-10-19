@@ -1,5 +1,20 @@
 {
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.language": "en,fr",
   "cSpell.words": [
-    "izivente"
+    "dbschema",
+    "edgedb",
+    "edgeql",
+    "izivente",
+    "typesystem"
   ]
 }
