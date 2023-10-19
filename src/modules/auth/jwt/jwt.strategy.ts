@@ -1,7 +1,7 @@
 import { Injectable, UnauthorizedException } from '@nestjs/common'
 import { PassportStrategy } from '@nestjs/passport'
 import { ExtractJwt, Strategy } from 'passport-jwt'
-import { EdgedbService, edb } from 'src/shared/edgedb/edgedb.service'
+import { EdgedbService, edb } from 'src/modules/shared/edgedb/edgedb.service'
 
 import { AccessTokenPayload } from './AccessTokenPayload.type'
 import { JWT_SECRET } from './jwt.const'

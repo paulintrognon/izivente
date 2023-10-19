@@ -1,5 +1,5 @@
 import { Body, Controller, Post } from '@nestjs/common'
-import { EdgedbService, edb } from 'src/shared/edgedb/edgedb.service'
+import { EdgedbService, edb } from 'src/modules/shared/edgedb/edgedb.service'
 
 import { hashSecret } from '../helpers/hash.helper'
 import { UserRefreshTokenService } from '../services/UserRefreshToken.service'

@@ -3,7 +3,7 @@ import { $infer } from 'dbschema/edgeql-js/syntax'
 import * as T from 'dbschema/edgeql-js/typesystem'
 import * as edgedb from 'edgedb'
 
-import edgedbGenerated from '../../../dbschema/edgeql-js'
+import edgedbGenerated from '../../../../dbschema/edgeql-js'
 
 export const edb = edgedbGenerated
 

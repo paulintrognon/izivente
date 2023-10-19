@@ -3,7 +3,7 @@ import { JwtService } from '@nestjs/jwt'
 import {} from '../../../../dbschema/edgeql-js'
 import { User } from 'dbschema/interfaces'
 import { CharsetEnum, randomText } from 'src/helpers/crypto-random-string.helper'
-import { EdgedbService, edb } from 'src/shared/edgedb/edgedb.service'
+import { EdgedbService, edb } from 'src/modules/shared/edgedb/edgedb.service'
 
 @Injectable()
 export class UserRefreshTokenService {

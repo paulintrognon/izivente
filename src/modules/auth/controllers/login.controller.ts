@@ -1,5 +1,5 @@
 import { Body, Controller, Post, UnauthorizedException } from '@nestjs/common'
-import { EdgedbService, edb } from 'src/shared/edgedb/edgedb.service'
+import { EdgedbService, edb } from 'src/modules/shared/edgedb/edgedb.service'
 
 import { compareHash } from '../helpers/hash.helper'
 import { UserRefreshTokenService } from '../services/UserRefreshToken.service'
